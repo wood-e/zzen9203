@@ -3,7 +3,6 @@
 This task is directly related to the Birthday Attack task where we needed to modify the last few digits of a file to prove that we can modify and hack a file to imitate the Birthday Attack.
 
 ## Dependencies
-
 ## Installation
 
 1. Clone the repository to your local machine:
@@ -42,10 +41,6 @@ This is an extremely simple tool that takes two files, a real one and a fake one
 The tool will then modify the fake file until it's hash matches the provided number of bits of the hash that needs to be modified.
 
 The Birthday Attack script supports the following command-line arguments:
-
---file: The path to the input file. This should be a plain text file containing the data to be hashed.
---hash: The hashing algorithm to use. Supported options include md5, sha1, and sha256.
---output: The path to the output file. This will be a text file containing the modified data.
 
 The tool takes 3 arguments:
 
